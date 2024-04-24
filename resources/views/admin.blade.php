@@ -88,7 +88,7 @@
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
       <img src="dist/img/dk.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">DK Brothers</span>
+      <span class="brand-text font-weight-light">DK Brothers &reg;</span>
     </a>
 
     <!-- Sidebar -->
@@ -144,8 +144,10 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2024 <a href="#">DK Brother</a>.</strong>
-    All rights reserved.
+    <strong>2014-2024 <a href="#">DK Brother &reg;</a>.</strong>
+    24h Services .
+    <span style="float: right;">Contact No: 9409140761</span>
+    <span style="clear: both;"></span>
   </footer>
 
   <!-- Control Sidebar -->
