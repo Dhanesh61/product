@@ -41,7 +41,7 @@ class ProductController extends Controller
            
     
             $product->save();
-             return back()->withSuccess('Product Created');
+             return redirect()->route('product.index')->withSuccess('Product Created');
         }
         public function edit($id){
             //dd($id);
