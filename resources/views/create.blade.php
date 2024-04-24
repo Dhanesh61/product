@@ -42,7 +42,7 @@
                     @endif
                 </div>
                 <div class="form-group">
-                    <label for="">Description:</label>
+                    <label for="">Product Description:</label>
                     <textarea class="form-control" rows="3" name="description">{{old('description')}}</textarea>
                     @if($errors->has('description'))
                     <span class="text-danger">{{$errors->first('description')}}</span>
