@@ -81,8 +81,15 @@ class ProductController extends Controller
         }
     
         public function delete($id){
-            $product = Product::where('id',$id)->first();
+            $product = Product::findOrFail($id);
+
+            // Delete the image file if it exists
+            $imagePath = public_path('product') . '/' . $product->image;
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
+
             $product->delete();
-            return back()->withSuccess('Product Delete');
+            return back()->withSuccess('Product Deleted');
         }
 }
