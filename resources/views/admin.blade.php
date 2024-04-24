@@ -113,7 +113,16 @@
               <p>
                 Admin
                 <span class="right badge badge-danger">New</span>
-              </p>
+              </p> 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Product
+                <span class="right badge badge-danger">New</span>
+              </p> 
             </a>
           </li>
         </ul>
